@@ -1,24 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Dinner from './dinner.js';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Testing by Muhammad Salman Ali
-          <h1>First React App</h1>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Dinner  dishName= 'Burger' sweetDish = ' Kheer'    />
+
+
+     <hr></hr>
+
+
+     <Dinner  dishName= 'Burger , Qeema , Pizza , All you just want' sweetDish = ' Kheer'    />
     </div>
   );
 }
